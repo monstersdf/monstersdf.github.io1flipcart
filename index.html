@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- custom css  -->
+  <link rel="stylesheet" href="CSS/style.css" />
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  <!-- header section  -->
+  <div id="container">
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light _208">
+        <div class="container-fluid _206">
+          <div class="_205"></div>
+          <div class="_206"></div>
+          <div class="flipcart">
+            <a href="">
+              <img width="75" src="Img/flipkart-plus_8d85f4.png" />
+            </a>
+            <br />
+            <a class="_200" href=""> Explore </a>
+            <span class="_201"> Plus </span>
+            <img width="10" src="Img/logo.png" />
+          </div>
+          <div class="_203">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search for products,brands and more"
+                aria-label="Search" />
+              <button class="_204" type="submit">
+                <svg width="20" height="20" viewBox="0 0 17 18" class="" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="#2874F1" fill-rule="evenodd">
+                    <path class="_34RNph"
+                      d="m11.618 9.897l4.225 4.212c.092.092.101.232.02.313l-1.465 1.46c-.081.081-.221.072-.314-.02l-4.216-4.203">
+                    </path>
+                    <path class="_34RNph"
+                      d="m6.486 10.901c-2.42 0-4.381-1.956-4.381-4.368 0-2.413 1.961-4.369 4.381-4.369 2.42 0 4.381 1.956 4.381 4.369 0 2.413-1.961 4.368-4.381 4.368m0-10.835c-3.582 0-6.486 2.895-6.486 6.467 0 3.572 2.904 6.467 6.486 6.467 3.582 0 6.486-2.895 6.486-6.467 0-3.572-2.904-6.467-6.486-6.467">
+                    </path>
+                  </g>
+                </svg>
+              </button>
+              <button class="btn btn-outline-success" type="submit">
+                Login
+              </button>
+            </form>
+            <div class="_205"></div>
+          </div>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active _207" aria-current="page" href="#">Become a Seller</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle _207" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active _207" aria-current="page" href="#">Cart</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="boxshadow1">
+      <div class="container-fluid _209">
+        <div class="row">
+          <div class="col">
+            <a href="">
+              <div class="_210">
+                <div class="_211">
+                  <img src="Img/first.webp" class="imgclass" alt="lo">
+                </div>
+              </div>
+              <div class="_212 text-center">Grocery</div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <div class="_210">
+                <div class="_211">
+                  <img src="Img/second.webp" class="imgclass" alt="lo">
+                </div>
+              </div>
+              <div class="_212 text-center">Mobiles</div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <div class="_210">
+                <div class="_211">
+                  <img src="Img/third.webp" class="imgclass" alt="lo">
+                </div>
+              </div>
+              <div class="_213">
+                <div>
+                  <div class="_214 text-center">Fashion
+                    <i class="bi bi-chevron-down"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <div class="_210">
+                <div class="_211">
+                  <img src="Img/forth.png" class="imgclass" alt="lo">
+                </div>
+              </div>
+              <div class="_213">
+                <div>
+                  <div class="_214 text-center">Electronics
+                    <i class="bi bi-chevron-down"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <div class="_210">
+                <div class="_211">
+                  <img src="Img/fifth.webp" class="imgclass" alt="lo">
+                </div>
+              </div>
+              <div class="_213">
+                <div>
+                  <div class="_214 text-center">Home
+                    <i class="bi bi-chevron-down"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <div class="_210">
+                <div class="_211">
+                  <img src="Img/sixth.webp" class="imgclass" alt="lo">
+                </div>
+              </div>
+              <div class="_212 text-center">Appliances</div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <div class="_210">
+                <div class="_211">
+                  <img src="Img/seven.webp" class="imgclass" alt="lo">
+                </div>
+              </div>
+              <div class="_212 text-center">Travel</div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <div class="_210">
+                <div class="_211">
+                  <img src="Img/eight.webp" class="imgclass" alt="lo">
+                </div>
+              </div>
+              <div class="_212 text-center">Top Offers</div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <div class="_210">
+                <div class="_211">
+                  <img src="Img/nine.webp" class="imgclass" alt="lo">
+                </div>
+              </div>
+              <div class="_213">
+                <div>
+                  <div class="_214 text-center">Beauty,Toys & More
+                    <i class="bi bi-chevron-down"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <div class="_210">
+                <div class="_211">
+                  <img src="Img/ten.webp" class="imgclass" alt="lo">
+                </div>
+              </div>
+              <div class="_213">
+                <div>
+                  <div class="_214 text-center">Two Wheelers
+                    <i class="bi bi-chevron-down"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- carousal section  -->
+    <section>
+      <div class="container-fluid c1">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/t1.webp" class="d-block w-100 imgv" alt="img/forth.png">
+            </div>
+            <div class="carousel-item">
+              <img src="img/c22.webp" class="d-block w-100 imgv" alt="img/forth.png">
+            </div>
+            <div class="carousel-item">
+              <img src="img/c33.webp" class="d-block w-100 imgv" alt="img/forth.png">
+            </div>
+          </div>
+          <button class="carousel-control-prev left" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next right" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </section>
+
+    <!-- first slider section  -->
+    <section>
+      <div class="container-fluid cv ">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- <div class="carousel-item active" data-bs-interval="10000">
+          <img src="img/t1.webp" class="d-block w-100 imgv" alt="img/forth.png">
+
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/c22.webp" class="d-block w-100 imgv" alt="img/forth.png">
+        </div>
+        <div class="carousel-item">
+          <img src="img/c33.webp" class="d-block w-100 imgv" alt="img/forth.png">
+
+        </div> -->
+        <div class="row fd">
+          <div class="col-3 vx" style="background-image: url('Img/slider1.webp'); background-position: 0px bottom;">
+            <div class="_215">
+              <h2>Best of Electronics</h2>
+              <div class="_216">
+                <a class="_217"
+                  href="https://www.flipkart.com/offers-list/content?screen=dynamic&amp;pk=themeViews%3DDT-OMU-1%3ADealcard~widgetType%3DdealCard~contentType%3Dneo&amp;wid=2.dealCard.OMU&amp;wid=3.dealCard.OMU_3&amp;otracker=hp_omu_Best%2Bof%2BElectronics_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_wc_view-all_3">VIEW
+                  ALL</a>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev left" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <div class="col">
+            <div class="_218">
+             <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+              <div class="_219">
+                <div class="_220">
+                  <img src="img/shavers.webp" class="shavers" alt="">
+                </div>
+              </div>
+              <div class="_221">Best of Shavers</div>
+              <div class="_222">From ₹1,649</div>
+              <div class="_223">Philips &amp; Havells</div>
+              <div class="_2LaGin"></div>
+            </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/monitor.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Monitor</div>
+               <div class="_222">From ₹8279</div>
+               <div class="_223">DELL</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/printers.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Printers</div>
+               <div class="_222">From ₹3999</div>
+               <div class="_223">HP</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/projectors.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Projectors</div>
+               <div class="_222">From ₹9999</div>
+               <div class="_223">ZEBRONICS</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/powerbanks.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Premium PowerBanks</div>
+               <div class="_222">Shop Now</div>
+               <div class="_223">Mi, realme &amp; More</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/case coveer.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Design Cases &amp; Covers</div>
+               <div class="_222">Just ₹169 </div>
+               <div class="_223">For Top Models</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/monitors.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Monitors</div>
+               <div class="_222">From ₹9999</div>
+               <div class="_223">For Top Models</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <button class="carousel-control-next right" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button> -->
+      <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+    </div>
+      </div>
+  </section>
+    <section>
+      <div class="container-fluid cv ">
+        <div class="row fd">
+          <div class="col-3 vx" style="background-image: url('Img/slider1.webp'); background-position: 0px bottom;">
+            <div class="_215">
+              <h2>Best of Electronics</h2>
+              <div class="_216">
+                <a class="_217"
+                  href="https://www.flipkart.com/offers-list/content?screen=dynamic&amp;pk=themeViews%3DDT-OMU-1%3ADealcard~widgetType%3DdealCard~contentType%3Dneo&amp;wid=2.dealCard.OMU&amp;wid=3.dealCard.OMU_3&amp;otracker=hp_omu_Best%2Bof%2BElectronics_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_wc_view-all_3">VIEW
+                  ALL</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+             <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+              <div class="_219">
+                <div class="_220">
+                  <img src="img/shavers.webp" class="shavers" alt="">
+                </div>
+              </div>
+              <div class="_221">Best of Shavers</div>
+              <div class="_222">From ₹1,649</div>
+              <div class="_223">Philips &amp; Havells</div>
+              <div class="_2LaGin"></div>
+            </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/camera.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Top Mirrorless Cameras</div>
+               <div class="_222">Shop Now!</div>
+               <div class="_223">Canon, Sony, Fujijifilm...</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/monitor.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Monitor</div>
+               <div class="_222">From ₹8279</div>
+               <div class="_223">DELL</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/printers.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Printers</div>
+               <div class="_222">From ₹3999</div>
+               <div class="_223">HP</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/projectors.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Projectors</div>
+               <div class="_222">From ₹9999</div>
+               <div class="_223">ZEBRONICS</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/powerbanks.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Premium PowerBanks</div>
+               <div class="_222">Shop Now</div>
+               <div class="_223">Mi, realme &amp; More</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/case coveer.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Design Cases &amp; Covers</div>
+               <div class="_222">Just ₹169 </div>
+               <div class="_223">For Top Models</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/monitors.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Monitors</div>
+               <div class="_222">From ₹9999</div>
+               <div class="_223">For Top Models</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid cv ">
+        <div class="row fd">
+          <div class="col-3 vx" style="background-image: url('Img/slider1.webp'); background-position: 0px bottom;">
+            <div class="_215">
+              <h2>Best of Electronics</h2>
+              <div class="_216">
+                <a class="_217"
+                  href="https://www.flipkart.com/offers-list/content?screen=dynamic&amp;pk=themeViews%3DDT-OMU-1%3ADealcard~widgetType%3DdealCard~contentType%3Dneo&amp;wid=2.dealCard.OMU&amp;wid=3.dealCard.OMU_3&amp;otracker=hp_omu_Best%2Bof%2BElectronics_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_wc_view-all_3">VIEW
+                  ALL</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+             <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+              <div class="_219">
+                <div class="_220">
+                  <img src="img/shavers.webp" class="shavers" alt="">
+                </div>
+              </div>
+              <div class="_221">Best of Shavers</div>
+              <div class="_222">From ₹1,649</div>
+              <div class="_223">Philips &amp; Havells</div>
+              <div class="_2LaGin"></div>
+            </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/camera.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Top Mirrorless Cameras</div>
+               <div class="_222">Shop Now!</div>
+               <div class="_223">Canon, Sony, Fujijifilm...</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/monitor.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Monitor</div>
+               <div class="_222">From ₹8279</div>
+               <div class="_223">DELL</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/printers.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Printers</div>
+               <div class="_222">From ₹3999</div>
+               <div class="_223">HP</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/projectors.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Projectors</div>
+               <div class="_222">From ₹9999</div>
+               <div class="_223">ZEBRONICS</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/powerbanks.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Premium PowerBanks</div>
+               <div class="_222">Shop Now</div>
+               <div class="_223">Mi, realme &amp; More</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/case coveer.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Design Cases &amp; Covers</div>
+               <div class="_222">Just ₹169 </div>
+               <div class="_223">For Top Models</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/monitors.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Monitors</div>
+               <div class="_222">From ₹9999</div>
+               <div class="_223">For Top Models</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid cv ">
+        <div class="row fd">
+          <div class="col-3 vx" style="background-image: url('Img/slider1.webp'); background-position: 0px bottom;">
+            <div class="_215">
+              <h2>Best of Electronics</h2>
+              <div class="_216">
+                <a class="_217"
+                  href="https://www.flipkart.com/offers-list/content?screen=dynamic&amp;pk=themeViews%3DDT-OMU-1%3ADealcard~widgetType%3DdealCard~contentType%3Dneo&amp;wid=2.dealCard.OMU&amp;wid=3.dealCard.OMU_3&amp;otracker=hp_omu_Best%2Bof%2BElectronics_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_wc_view-all_3">VIEW
+                  ALL</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+             <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+              <div class="_219">
+                <div class="_220">
+                  <img src="img/shavers.webp" class="shavers" alt="">
+                </div>
+              </div>
+              <div class="_221">Best of Shavers</div>
+              <div class="_222">From ₹1,649</div>
+              <div class="_223">Philips &amp; Havells</div>
+              <div class="_2LaGin"></div>
+            </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/camera.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Top Mirrorless Cameras</div>
+               <div class="_222">Shop Now!</div>
+               <div class="_223">Canon, Sony, Fujijifilm...</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/monitor.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Monitor</div>
+               <div class="_222">From ₹8279</div>
+               <div class="_223">DELL</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/printers.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Printers</div>
+               <div class="_222">From ₹3999</div>
+               <div class="_223">HP</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/projectors.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Projectors</div>
+               <div class="_222">From ₹9999</div>
+               <div class="_223">ZEBRONICS</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/powerbanks.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Premium PowerBanks</div>
+               <div class="_222">Shop Now</div>
+               <div class="_223">Mi, realme &amp; More</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/case coveer.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Design Cases &amp; Covers</div>
+               <div class="_222">Just ₹169 </div>
+               <div class="_223">For Top Models</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/monitors.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Monitors</div>
+               <div class="_222">From ₹9999</div>
+               <div class="_223">For Top Models</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid cv ">
+        <div class="row fd">
+          <div class="col-3 vx" style="background-image: url('Img/slider1.webp'); background-position: 0px bottom;">
+            <div class="_215">
+              <h2>Best of Electronics</h2>
+              <div class="_216">
+                <a class="_217"
+                  href="https://www.flipkart.com/offers-list/content?screen=dynamic&amp;pk=themeViews%3DDT-OMU-1%3ADealcard~widgetType%3DdealCard~contentType%3Dneo&amp;wid=2.dealCard.OMU&amp;wid=3.dealCard.OMU_3&amp;otracker=hp_omu_Best%2Bof%2BElectronics_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_wc_view-all_3">VIEW
+                  ALL</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+             <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+              <div class="_219">
+                <div class="_220">
+                  <img src="img/shavers.webp" class="shavers" alt="">
+                </div>
+              </div>
+              <div class="_221">Best of Shavers</div>
+              <div class="_222">From ₹1,649</div>
+              <div class="_223">Philips &amp; Havells</div>
+              <div class="_2LaGin"></div>
+            </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/camera.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Top Mirrorless Cameras</div>
+               <div class="_222">Shop Now!</div>
+               <div class="_223">Canon, Sony, Fujijifilm...</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/monitor.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Monitor</div>
+               <div class="_222">From ₹8279</div>
+               <div class="_223">DELL</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/printers.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Printers</div>
+               <div class="_222">From ₹3999</div>
+               <div class="_223">HP</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/projectors.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Projectors</div>
+               <div class="_222">From ₹9999</div>
+               <div class="_223">ZEBRONICS</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/powerbanks.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Premium PowerBanks</div>
+               <div class="_222">Shop Now</div>
+               <div class="_223">Mi, realme &amp; More</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/case coveer.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Design Cases &amp; Covers</div>
+               <div class="_222">Just ₹169 </div>
+               <div class="_223">For Top Models</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+          <div class="col">
+            <div class="_218">
+              <a title="From ₹1,649" class="_6WQwDJ" data-widget-type="omu" data-tracking-id="" href="/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&amp;fm=neo%2Fmerchandising&amp;iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&amp;otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&amp;cid=7IRTITZ74DB6&amp;hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&amp;ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR0dCVDdIUVlQRlJKNiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&amp;fm=neo%2Fmerchandising&amp;iid=M_2f1c6d07-1bb3-49c2-b9b5-b4de43e6d31a_3.8JR5BM71BUKP&amp;ssid=y6t5du6juo0000001677220958614&amp;otracker=hp_omu_Best%2Bof%2BElectronics_1_3.dealCard.OMU_8JR5BM71BUKP_3&amp;otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_dealCard_cc_1_NA_view-all_3&amp;cid=8JR5BM71BUKP">
+               <div class="_219">
+                 <div class="_220">
+                   <img src="img/monitors.webp" class="shavers" alt="">
+                 </div>
+               </div>
+               <div class="_221">Monitors</div>
+               <div class="_222">From ₹9999</div>
+               <div class="_223">For Top Models</div>
+               <div class="_2LaGin"></div>
+             </a>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  </div>
+</body>
+<script src="JS/index.js"></script>
+</html>
